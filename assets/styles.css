@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(137, 146, 116, 0.8), rgba(89, 94, 163, 0.7)),url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.logo {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.text-description {
+    letter-spacing: 2px;
+    font-family: sans-serif;    
+    font-size: 18px;
+}
+
+.text-number {
+    font-size: 25px;
+}
+
+.form-control {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+a .fab {
+    color: #ffc;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.head-modal {
+    background: linear-gradient(50deg,#6cdfa0, #2a2979);
+}
+
+.modal-style {
+    border-style: none;
+}
+
+.form-box{
+    height: 40px;
+}
